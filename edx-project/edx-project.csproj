@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>edx_project</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\viewsModels\tempdata\" />
+    <Folder Include="Models\viewsModels\viewbag\" />
+    <Folder Include="Models\viewsModels\viewdata\" />
+    <Folder Include="Views\Product\" />
+    <Folder Include="Views\IMDB\" />
+    <Folder Include="Models\ViewModels\" />
+    <Folder Include="Models\DomainModels\" />
+  </ItemGroup>
+</Project>
